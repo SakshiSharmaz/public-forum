@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Fredoka';
+    src: local('Fredoka'), url(../../fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf) format('opentype');
+  }
+
+.container{
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Fredoka;
+}
+
+.card{
+    margin-top: 10em;
+    background-color: #4FD3C4;
+    color: white;
+    border-radius: 1em;
+    width: 40%;
+}
+.back-style{
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+
+html, body, #app, #app>div {
+  height: 100%;
+  margin: 0
+}
+
+body{
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+
+}
+

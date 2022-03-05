@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Fredoka';
+    src: local('Fredoka'), url(../../fonts/Fredoka/Fredoka-VariableFont_wdth\,wght.ttf) format('opentype');
+  }
+
+.textInputParent{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: stretch;
+
+}
+.topicPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textInputChild1{
+    
+       font-weight: 900;
+        padding: 8px;
+        width: 40%;
+        margin: 12px;
+        border-radius: 8px;
+        font-size: x-large;
+        border: none;
+        font-family: Fredoka;
+        
+}
+
+.textInputChild2{
+    padding: 8px;
+    color: #488FB1;
+    margin: 12px;
+    border-radius: 8px;
+    font-size: x-large;
+    border: none;
+    font-family: Fredoka;
+    font-weight: 300;
+    width: 50%;
+    margin-right: 2em;
+    
+}
+
+.sub_button{
+
+    border-radius: 8px;
+    font-size: xx-large;
+    font-family: Fredoka;
+    margin: 12px;
+    border: none;
+    color: #488FB1;
+    padding: 6px 12px;
+
+
+}
+
+.submit_button{
+display: flex;
+justify-content: center;    
+}
+
+.hoverOver:hover{
+
+        color: #488FB1;
+
+}
+
+.headerType{
+
+    padding: 20px;
+    height: 50px;
+    color: white;
+    background-color: #488FB1;
+    font-family: Fredoka;
+    font-size: xx-large;
+    width: 100%;
+
+}
+
+.topic_details{
+    padding:16px;
+    padding-left: 36px;
+    margin-top: 5em;
+    background-color: #DFF6FF;
+    color: #051367;
+    border-radius: 1em;
+    width: 40%;
+    font-family: Fredoka;
+    
+}
+
+.topicButtons{
+
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 12px;
+    padding-right: 20px;
+
+}
+
+#createTopicButton{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    padding-left: 20px;
+
+}
+.datagrid{
+    
+display: flex;
+justify-content: start;
+flex-direction: column;
+align-items: center;
+height: 400px;
+
+}
+
+.gridVal{
+
+        width:70%
+
+}

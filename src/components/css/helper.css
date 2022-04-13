@@ -70,15 +70,16 @@ justify-content: center;
 }
 
 .headerType{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
     height: 50px;
     color: white;
     background-color: #488FB1;
     font-family: Fredoka;
     font-size: xx-large;
-    width: 100%;
-
 }
 
 .topic_details{

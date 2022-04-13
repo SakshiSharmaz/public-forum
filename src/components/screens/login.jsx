@@ -70,9 +70,9 @@ export default function Login(props) {
 
                 <Button onClick={() => changeSignUpState()}  > Already Signed Up? Sign In</Button>
                 :
-
+    
                 <Button onClick={() => changeSignUpState()}  >
-                    Already Signed In? Sign Up
+                    Havent signed up yet? Sign Up
                 </Button>
             }
             <br></br>

@@ -3,7 +3,7 @@ import "../css/helper.css"
 import Button from '@mui/material/Button';
 import AddIcon from '@mui/icons-material/Add';
 import Header from "../helpercomponents/Header"
-import { DataGrid } from '@mui/x-data-grid';
+import DataGrid from "../helpercomponents/dataGrid";
 
 import {
     useParams,
@@ -21,7 +21,7 @@ export default function Topics(props) {
     }
 
     const columns = [
-        { field: 'id', headerName: 'ID', width: 90 },
+        { field: 'id', headerName: 'Id', width: 90 },
         {
           field: 'title',
           headerName: 'Title',
@@ -69,14 +69,23 @@ export default function Topics(props) {
   ]}
 /> */}
 <div  className="datagrid" >
-<DataGrid  className="gridVal"
+{/* <DataGrid  className="gridVal"
         rows={rows}
         columns={columns}
         pageSize={5}
         rowsPerPageOptions={[5]}
         checkboxSelection
         disableSelectionOnClick
-      />
+      /> */}
+<DataGrid 
+    rows= {rows}
+    columns ={columns}
+ />
+
+
+
+
+
       </div>
 
     </div>

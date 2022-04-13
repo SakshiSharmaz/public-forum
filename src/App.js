@@ -1,7 +1,6 @@
 import "./components/css/login.css"
 import Topics from './components/screens/topics';
 import Login from "../src/components/screens/login"
-import TopicDetails from "./components/helpercomponents/TopicDetails";
 import CreateTopic from "./components/screens/CreateTopic";
 
 import {

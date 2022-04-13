@@ -1,6 +1,5 @@
 import React from "react";
-import "../css/helper.css"
-import Button from '@mui/material/Button';
+import "../css/helper.css";
 
 export default function Header(props) {
 
@@ -12,4 +11,4 @@ export default function Header(props) {
     </div>
 
 
-};
+};  

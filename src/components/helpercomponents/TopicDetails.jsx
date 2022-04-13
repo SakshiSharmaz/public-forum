@@ -65,7 +65,6 @@ export default function TopicDetails(props) {
 
 <br />
 
-
     </div>
 
 

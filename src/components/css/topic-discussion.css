@@ -1,0 +1,85 @@
+.topic-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.topic-container {
+    width: 60%;
+    min-height: 75vh;
+    border: 1px solid;
+    padding: 0px 15px;
+}
+
+.topic-content {
+
+}
+
+.title-header {
+    border-bottom: 1px solid;
+}
+
+.topic-description {
+    padding: 20px 0;
+    border-bottom: 1px solid;
+}
+
+.topic-posts-content {
+    margin: 5px 0;
+    min-height: 30vh;
+}
+
+.topic-posts-empty {
+    display: flex;
+    justify-content: center;
+}
+
+.post-content {
+    padding: 20px 0;
+    border-bottom: 1px solid #0000003d;
+}
+
+.post-input-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.post-action {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px
+}
+
+/* HELPER CLASSES */
+p {
+    margin: 0px;
+}
+
+.heading-1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+.heading-3 {
+    font-size: 22px;
+}
+
+.heading-4 {
+    font-size: 20px;
+}
+
+.subheading-2 {
+    font-size: 18px;
+    margin: 4px 0;
+}
+
+.body-1 {
+    font-size: 18px;
+}

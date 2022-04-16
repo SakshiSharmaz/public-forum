@@ -3,6 +3,7 @@ import Login from "../src/components/screens/login";
 import Dashboard from "../src/components/screens/Dashboard/Dashboard";
 import Topics from "../src/components/screens/Dashboard/components/topics";
 import CreateTopic from "../src/components/screens/Dashboard/components/CreateTopic";
+import TopicDiscussion from "../src/components/screens/Dashboard/components/TopicDiscussion";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
@@ -13,6 +14,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />}>
           <Route index element={<Topics />} />
           <Route path="topic" element={<CreateTopic />} />
+          <Route path="forum/:id" element={<TopicDiscussion />} />
         </Route>
       </Routes>
     </BrowserRouter>

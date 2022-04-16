@@ -5,7 +5,9 @@ class ForumDB extends Dexie {
         super("ForumDB");
 
         this.version(1).stores({
-            users: "++id, username, password"
+            users: "++id, username, password",
+            topics: "++id, author, title, description, createdOn",
+            posts: "++id, topicId, postBy, postedOn, body"
         });
     }
 }

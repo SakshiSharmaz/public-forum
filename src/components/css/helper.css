@@ -144,3 +144,12 @@ thead{
 
     border: 1px solid black;
 }
+
+.topics-loader {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
